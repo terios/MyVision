@@ -1,0 +1,32 @@
+<div class="content">
+    <div class="wrapper">
+        <div class="logo">
+            <img class="logo-img" src="images/sign-in/logo_sign_in.png" alt="UI Deck Logo"/>
+        </div>
+        <div class="card card-sign-in animated fadeInUp">
+            <md-content layout-padding layout="row" layout-sm="column">
+                <md-input-container>
+                    <label>E-mail</label>
+                    <input ng-model="user.email">
+                </md-input-container>
+                <md-input-container>
+                    <label>Login</label>
+                    <input ng-model="user.login">
+                </md-input-container>
+                <md-input-container>
+                    <label>Mot de passe</label>
+                    <input ng-model="user.password" type="password">
+                </md-input-container>
+                <md-input-container>
+                    <label>Confirmation mot de passe</label>
+                    <input ng-model="user.confPassword" type="password">
+                </md-input-container>
+                <md-select placeholder="Pick" ng-model="someVal">
+                    <md-option value="1">One</md-option>
+                    <md-option value="2">Two</md-option>
+                </md-select>
+                <md-button class="md-raised green blue">C'est Partie</md-button>
+            </md-content>
+        </div>
+    </div>
+</div>

@@ -1,7 +1,29 @@
 {
-  "name": "HelloIonic",
-  "private": "true",
-  "devDependencies": {
-    "ionic": "driftyco/ionic-bower#1.0.0"
+  "name": "MyVision",
+  "version": "0.0.0",
+  "homepage": "https://github.com/terios/MyVision",
+  "authors": [
+    "terios <anasyoubi@gmail.com>"
+  ],
+  "description": "nothing to say",
+  "moduleType": [
+    "globals"
+  ],
+  "license": "MIT",
+  "ignore": [
+    "**/.*",
+    "node_modules",
+    "bower_components",
+    "test",
+    "tests"
+  ],
+  "dependencies": {
+    "angular": "~1.3.15",
+    "angular-material": "~0.9.6",
+    "angular-ui-router": "~0.2.15",
+    "jquery": "~2.1.4",
+    "animate.css": "~3.3.0",
+    "glidejs": "~2.0.2",
+    "Snap.svg": "~0.4.1"
   }
 }

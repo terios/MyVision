@@ -1,0 +1,41 @@
+<div class="content">
+    <div class="wrapper">
+        <div class="logo">
+            <img class="logo-img" src="images/sign-in/logo_sign_in.png" alt="UI Deck Logo"/>
+        </div>
+        <div class="card card-sign-in animated fadeInUp">
+            <md-content layout-padding layout="row" layout-sm="column">
+                <md-input-container>
+                    <label>E-mail</label>
+                    <input ng-model="user.email" class="unfocusElements" ng-focus="hideElements()">
+                </md-input-container>
+                <md-input-container>
+                    <label>Mot de passe</label>
+                    <input ng-model="user.password" class="unfocusElements" type="password" ng-focus="hideElements()">
+                </md-input-container>
+                <md-button class="md-raised green blue" href="#/home">Connexion</md-button>
+            </md-content>
+            <md-button href="#/register" class="small-text-blue">Devenez Membre !!</md-button>
+            <md-button href="#/restorePassword" class="small-text-blue put-left">Mot de passe oublie ?</md-button>
+        </div>
+    </div>
+
+    <nav class="bar bar-tab bar-footer bar-transparent" ng-show="showSocials">
+        <div class="table-row-group">
+            <div class="table-row">
+                <div class="table-cell text-center">
+                    <small>
+                        <strong>SIGN IN WITH</strong>
+                    </small>
+                </div>
+            </div>
+            <div class="table-row">
+                <div class="table-cell text-center">
+                    <a class="icon-facebook animated fadeInLeft" href="#">facebook</a>
+                    <a class="icon-twitter animated fadeInUp" href="#">twitter</a>
+                    <a class="icon-gplus animated fadeInRight" href="#">google</a>
+                </div>
+            </div>
+        </div>
+    </nav>
+</div>
