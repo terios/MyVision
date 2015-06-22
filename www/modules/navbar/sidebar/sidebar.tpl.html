@@ -1,21 +1,23 @@
 <section>
     <md-sidenav class="md-sidenav-left md-whiteframe-z2" md-component-id="left">
         <md-toolbar class="md-theme-light">
-            <h1 class="md-toolbar-tools">Sidenav Left</h1>
+            <h1 class="md-toolbar-tools">Msafrine</h1>
         </md-toolbar>
         <md-content layout-padding>
 
             <md-list>
-                <md-subheader class="md-no-sticky">somthing here maybe</md-subheader>
                 <md-list-item ng-repeat="person in people" ng-click="goToPerson(person.name, $event)">
-                <img alt="{{ person.name }}" ng-src="{{ person.img }}" class="md-avatar" />
-                <p>{{ person.name }}</p>
-                <md-icon md-svg-icon="communication:messenger" ng-click="doSecondaryAction($event)" aria-label="Open Chat" class="md-secondary md-hue-3" ng-class="{'md-primary': person.newMessage}"></md-icon>
-            </md-list-item>
+                    <img alt="{{ person.name }}" ng-src="{{ person.img }}" class="md-avatar"/>
+
+                    <p>{{ person.name }}</p>
+                    <md-icon md-svg-icon="communication:messenger" ng-click="doSecondaryAction($event)"
+                             aria-label="Open Chat" class="md-secondary md-hue-3"
+                             ng-class="{'md-primary': person.newMessage}"></md-icon>
+                </md-list-item>
             </md-list>
 
             <!--<md-button ng-click="close()" class="md-primary">-->
-                <!--Close Sidenav Right-->
+            <!--Close Sidenav Right-->
             <!--</md-button>-->
         </md-content>
     </md-sidenav>

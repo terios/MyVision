@@ -135,3 +135,11 @@ md-toolbar.md-default-theme{
 
 @media (max-width: 400px) {
 }
+
+@media (max-width: 360px){
+    md-sidenav {
+        width: 70%;
+        min-width:250px;
+    }
+}
+

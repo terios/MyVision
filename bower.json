@@ -23,7 +23,13 @@
     "angular-ui-router": "~0.2.15",
     "jquery": "~2.1.4",
     "animate.css": "~3.3.0",
-    "glidejs": "~2.0.2",
-    "Snap.svg": "~0.4.1"
+    "glidejs": "1.0.7",
+    "Snap.svg": "~0.4.1",
+    "angular-resource": "~1.4.1",
+    "angular-route": "~1.4.1",
+    "angular-sanitize": "~1.4.1",
+    "angular-touch": "~1.4.1",
+    "ngCordova": "~0.1.17-alpha",
+    "angular-cookies": "~1.4.1"
   }
 }

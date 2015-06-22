@@ -16,9 +16,13 @@ myApp.directive('sideBar',function($rootScope,$timeout, $mdSidenav, $log, $mdDia
             };
 
             $scope.people = [
-                { name: 'Janet Perkins', img: 'images/sideBar/home.png', newMessage: true },
-                { name: 'Mary Johnson', img: 'images/sideBar/home.png', newMessage: false },
-                { name: 'Peter Carlsson', img: 'images/sideBar/home.png', newMessage: false }
+                { name: 'Accueil', img: 'images/sideBar/home.png', newMessage: true },
+                { name: 'Profile', img: 'images/icons/1435031704_profle.png', newMessage: false },
+                { name: 'Près de moi', img: 'images/icons/map.png', newMessage: true },
+                { name: 'Moment', img: 'images/icons/1435032921_lens.png', newMessage: true },
+                { name: 'Messages', img: 'images/icons/bubbles.png', newMessage: true },
+                { name: 'Accomplissement', img: 'images/icons/1435031736_trophy.png', newMessage: false },
+                { name: 'Paramètres', img: 'images/icons/settings.png', newMessage: false }
             ];
 
             $scope.goToPerson = function(person, event) {
